@@ -1,0 +1,28 @@
+.Owner{
+  display: inline;
+  color: gray;
+}
+
+.Owner-symbol{
+  color: gray;
+  font-size: 1.3em;
+  margin-left: 10px; 
+}
+
+.Opponent{
+  display: inline;
+  float: right;
+}
+
+.Opponent-symbol{
+  font-size: 1.3em;
+  color: skyblue;
+  margin-right: 10px;
+}
+
+.ButtonG{
+  margin-top: 20px; 
+  display: flex;
+  justify-content: center;
+}
+

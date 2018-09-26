@@ -1,0 +1,17 @@
+.Game-item{
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+  flex-basis: 100px;
+  margin: 20px;
+  position: relative;
+}
+
+.Duration{
+  position: absolute;
+  margin: 4px;
+  right: 0;
+  bottom: 0px;
+  font-size: 0.6em;
+}

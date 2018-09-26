@@ -1,0 +1,13 @@
+.App-header{
+  min-width: 300px;
+  min-height: 30px;
+  height: 50px;
+  background: black;
+  padding-left: 24px;
+}
+
+.Header-tittle{
+  color: white;
+  text-align: left;
+  margin: auto;
+}

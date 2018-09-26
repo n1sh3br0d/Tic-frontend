@@ -1,0 +1,16 @@
+.Name-input{
+  border: none;
+  background: transparent;
+  max-width: 150px;
+}
+
+.Size-input{
+  float: right;
+  max-width: 50px;
+}
+
+.Games-list{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+}

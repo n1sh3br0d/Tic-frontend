@@ -1,0 +1,88 @@
+.Col{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 3px solid darkgoldenrod;
+}
+
+.Col#left{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 3px solid darkgoldenrod;
+  border-left-width: 0;
+}
+
+.Col#right{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 3px solid darkgoldenrod;
+  border-right-width: 0;
+}
+
+.Col#top{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 3px solid darkgoldenrod;
+  border-top-width: 0;
+}
+
+.Col#top-left{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 3px solid darkgoldenrod;
+  border-top-width: 0;
+  border-left-width: 0;
+}
+
+.Col#top-right{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 3px solid darkgoldenrod;
+  border-top-width: 0;
+  border-right-width: 0;
+}
+
+.Col#down{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 3px solid darkgoldenrod;
+  border-bottom-width: 0;
+}
+
+.Col#down-left{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 3px solid darkgoldenrod;
+  border-bottom-width: 0;
+  border-left-width: 0;
+}
+
+.Col#down-right{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 3px solid darkgoldenrod;
+  border-bottom-width: 0;
+  border-right-width: 0;
+}
+
+#owner{
+  position: absolute;
+  color: gray;
+  font-size: 5em;
+  margin-left: 20px;
+}
+
+#opponent{
+  position: absolute;
+  color: skyblue;
+  font-size: 5em;
+  margin-left: 20px;
+}
