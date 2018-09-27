@@ -79,7 +79,8 @@ class Game extends Component{
         </div>
         {view}
         <div className='ButtonG'>
-        <GameBtn setToken={this.props.setToken} player={this.state.game.you} duration={this.state.game.gameDuration} token={this.state.token}/>
+        <GameBtn setToken={this.props.setToken} catchError={this.props.catchError} 
+          player={this.state.game.you} duration={this.state.game.gameDuration} token={this.state.token}/>
         </div>
       </div>
     )

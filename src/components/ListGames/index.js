@@ -60,7 +60,8 @@ class ListGames extends Component{
           {games ? 
             games.map(game => {
               return(
-                <ListItem game={game} setToken={this.props.setToken} key={game.gameToken} />
+                <ListItem game={game} catchError={this.props.catchError} 
+                  name={this.state.name} setToken={this.props.setToken} key={game.gameToken} />
               );
             }) : ''
           }
