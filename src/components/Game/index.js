@@ -71,7 +71,7 @@ class Game extends Component{
           </div>
           <div className='Opponent'>
             <span className='Opponent-symbol'>{this.state.game.opponent !== 'undefined' ? 
-              this.state.game.opponent : 'O'}</span>
+              'O' : ''}</span>
             <span>{this.state.game.opponent !== 'undefined' ? 
               this.state.game.opponent : ''}</span>
           </div>

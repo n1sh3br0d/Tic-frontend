@@ -61,7 +61,7 @@ class Col extends Component{
 
     if (this.props.item === 'X') {
       player = 'owner'
-    } else if (this.props.item === 0) {
+    } else if (this.props.item === '0') {
       player = 'opponent'
     }
 
